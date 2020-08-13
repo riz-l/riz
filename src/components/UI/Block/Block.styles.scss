@@ -1,31 +1,29 @@
-/*#region UI: Test */
-.Test {
-  background: #ecf0f3;
+/*#region UI: Block */
+.Block {
+  background: #f7f7f7;
   min-width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  .Test__box {
-    background: #ecf0f3;
+  .Block__box {
+    background: #f7f7f7;
     border-radius: 8px;
-    box-shadow: 20px 20px 60px #c9cccf, -20px -20px 60px #ffffff;
-    -webkit-box-shadow: 20px 20px 60px #c9cccf, -20px -20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
+    -webkit-box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
     height: 150px;
     width: 150px;
     display: grid;
     place-items: center;
-    transition: all 0.3s ease-in-out;
 
     // &:hover {
     //   box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
     //   -webkit-box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
-    //   transition: all 0.3s ease-in-out;
     // }
 
     & span {
-      color: #b5b7b9;
+      color: #d2d2d2;
       font-size: 2rem;
       font-weight: lighter;
       letter-spacing: 1px;
@@ -33,4 +31,4 @@
     }
   }
 }
-/*#endregion /UI: Test */
+/*#endregion /UI: Block */
