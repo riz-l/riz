@@ -18,11 +18,11 @@
     place-items: center;
     transition: all 0.3s ease-in-out;
 
-    &:hover {
-      box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
-      -webkit-box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
-      transition: all 0.3s ease-in-out;
-    }
+    // &:hover {
+    //   box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
+    //   -webkit-box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
+    //   transition: all 0.3s ease-in-out;
+    // }
 
     & span {
       color: #b5b7b9;
