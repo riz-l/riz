@@ -7,7 +7,7 @@
     align-items: center;
     color: #525252;
     display: flex;
-    height: 20vh;
+    height: 18vh;
     justify-content: space-between;
     margin: auto;
     width: 70%;
@@ -30,23 +30,18 @@
 
     .Header__toggle-container {
       align-items: center;
-      background: #f7f7f7;
+      // background: #f7f7f7;
+      // background: red;
       border-radius: 100px;
-      box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
-      -webkit-box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
       cursor: pointer;
       display: flex;
       justify-content: center;
-      padding: 1rem;
+      z-index: 1000;
 
       &:hover {
-        box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
-        -webkit-box-shadow: inset 2px 2px 5px #c9cccf,
-          inset -3px -3px 7px #ffffff;
-
         .Header__toggle-menu {
           .Header__menu-bar {
-            background: #333333;
+            background: #747474;
             transition: all 250ms ease-in-out;
           }
         }
@@ -61,10 +56,10 @@
         width: 3rem;
 
         .Header__menu-bar {
-          background: #868686;
-          height: 0.2rem;
+          background: #333333;
+          height: 0.25rem;
           transition: all 250ms ease-in-out;
-          width: 2rem;
+          width: 3rem;
         }
       }
     }

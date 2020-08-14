@@ -10,7 +10,7 @@ function Header({ isOpen, setIsOpen }) {
     <div className="Header__container">
       <div className="Header">
         <div className="Header__logo-container">
-          <span className="Header__logo">riz</span>
+          <span className="Header__logo"></span>
         </div>
         <div
           className="Header__toggle-container"
