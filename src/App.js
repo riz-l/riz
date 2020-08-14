@@ -9,8 +9,8 @@ import "./index.scss";
 import Home from "./components/pages/Home/Home.component";
 
 // Import: UI
-// import Block from "./components/UI/Block/Block.component";
 import Header from "./components/UI/Header/Header.component";
+import Footer from "./components/UI/Footer/Footer.component";
 
 // Component: App
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
       </Switch>
+      <Footer isOpen={isOpen} />
     </div>
   );
 }

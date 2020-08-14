@@ -6,7 +6,7 @@ import "./Block.styles.scss";
 
 // Component: Block
 function Block() {
-  // Render App code
+  // Render Block code
   return (
     <div className="Block">
       <div className="Block__box">

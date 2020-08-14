@@ -87,7 +87,7 @@
       flex: 1;
       justify-content: flex-end;
 
-      .Home__image-outer-circle {
+      .Home__image-outer-square {
         background: #f7f7f7;
         border-radius: 0;
         box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
@@ -109,7 +109,7 @@
           place-items: center;
           width: 450px;
 
-          .Home__image-second-inner-circle {
+          .Home__image-second-inner-square {
             background: #f7f7f7;
             border-radius: 0;
             box-shadow: 20px 20px 60px #d2d2d2, -20px 0px 60px #ffffff;
@@ -129,6 +129,7 @@
               display: grid;
               height: 150px;
               place-items: center;
+              transform: rotate(-45deg);
               width: 150px;
 
               .Home__image-fourth-inner-circle {
@@ -153,7 +154,7 @@
                 }
 
                 .Home__theme-toggle {
-                  transform: rotate(-45deg);
+                  transform: rotate(0);
 
                   & span {
                     color: #868686;
@@ -198,7 +199,7 @@
   .Home__container {
     .Home {
       .Home__image {
-        .Home__image-outer-circle {
+        .Home__image-outer-square {
           height: 350px;
           width: 350px;
 
@@ -206,7 +207,7 @@
             height: 275px;
             width: 275px;
 
-            .Home__image-second-inner-circle {
+            .Home__image-second-inner-square {
               height: 187.5px;
               width: 187.5px;
 

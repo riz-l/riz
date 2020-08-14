@@ -6,6 +6,7 @@ import "./Header.styles.scss";
 
 // UI: Header
 function Header({ isOpen, setIsOpen }) {
+  // Render Header code
   return (
     <div className="Header__container">
       <div className="Header">

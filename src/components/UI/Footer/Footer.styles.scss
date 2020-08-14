@@ -1,0 +1,36 @@
+/*#region UI: Footer */
+.Footer__container {
+  align-items: center;
+  background: #333333;
+  color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  min-height: 10vh;
+  position: absolute;
+  width: 100%;
+
+  .Footer {
+    margin: auto;
+    padding: 6rem 0 4rem 0;
+    width: 70%;
+
+    .Footer__container-title {
+      font-size: 30px;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      text-align: start;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/*#region Media Queries */
+@media screen and (max-width: 1024px) {
+  .Footer__container {
+    .Footer {
+      width: 85%;
+    }
+  }
+}
+/*#endregion /Media Queries */
+/*#endregion /UI: Footer */
