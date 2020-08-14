@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    min-height: 86vh;
+    min-height: 80vh;
     width: 70%;
 
     .Home__text {
@@ -51,6 +51,11 @@
           box-shadow: inset 2px 2px 5px #c9cccf, inset -3px -3px 7px #ffffff;
           -webkit-box-shadow: inset 2px 2px 5px #c9cccf,
             inset -3px -3px 7px #ffffff;
+
+          .Home__cta-text {
+            color: #333333;
+            transition: all 250ms ease-in-out;
+          }
         }
 
         .Home__cta-text {
@@ -60,6 +65,7 @@
           letter-spacing: 2px;
           padding: 1rem 2rem;
           text-transform: uppercase;
+          transition: all 250ms ease-in-out;
         }
       }
     }
