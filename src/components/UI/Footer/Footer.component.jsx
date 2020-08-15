@@ -12,10 +12,10 @@ function Footer({ isOpen }) {
         <h3 className="Footer__container-title">Riz Layton</h3>
         <div className="Footer__social-media">
           <div title="GitHub" className="Footer__social-media-item">
-            <span className="fab fa-github-square" />
+            <span className="fab fa-github" />
           </div>
-          <div title="Stack Overflow" className="Footer__social-media-item">
-            <span className="fab fa-stack-overflow" />
+          <div title="Behance" className="Footer__social-media-item">
+            <span className="fab fa-behance" />
           </div>
           <div title="Twitter" className="Footer__social-media-item">
             <span className="fab fa-twitter" />

@@ -16,8 +16,10 @@ function Home() {
         <div className="Home__text">
           <h1 className="Home__title">Riz Layton</h1>
           <span className="Home__title-lead">Web &amp; App developer</span>
-          <div className="Home__cta">
-            <span className="Home__cta-text">My work</span>
+          <div className="Home__cta-container">
+            <div className="Home__cta">
+              <span className="Home__cta-text">My work</span>
+            </div>
           </div>
         </div>
         <div className="Home__image">

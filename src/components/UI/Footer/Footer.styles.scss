@@ -1,7 +1,7 @@
 /*#region UI: Footer */
 .Footer__container {
   align-items: center;
-  background: #333333;
+  background: #202020;
   color: #f7f7f7;
   display: flex;
   justify-content: center;
@@ -31,16 +31,6 @@
         font-size: 32px;
         padding: 1rem 24px 1rem 0;
         transition: all 250ms ease-in-out;
-
-        &[title]:hover::after {
-          background: #181818;
-          color: #f7f7f7;
-          content: attr(title);
-          font-size: 16px;
-          margin: 3.4rem 0 0 0;
-          padding: 0.6rem 1.2rem;
-          position: absolute;
-        }
 
         &:hover {
           cursor: pointer;
