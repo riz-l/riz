@@ -5,13 +5,20 @@ import React, { useState } from "react";
 import "./Home.styles.scss";
 
 // Page: Home
-function Home() {
+function Home({ isOpen }) {
   // State = isLightTheme
   const [isLightTheme, setIsLightTheme] = useState(true);
 
   // Render Home code
   return (
-    <div className="Home__container">
+    <div
+      className="Home__container"
+      style={
+        isOpen
+          ? { filter: "blur(3px)", transition: "filter 0.3s ease-in-out" }
+          : null
+      }
+    >
       <div className="Home">
         <div className="Home__text">
           <h1 className="Home__title">Riz Layton</h1>

@@ -20,9 +20,39 @@ function Header({ isOpen, setIsOpen }) {
           }}
         >
           <div className="Header__toggle-menu">
-            <div className="Header__menu-bar" />
-            <div className="Header__menu-bar" />
-            <div className="Header__menu-bar" />
+            <div
+              className="Header__menu-bar"
+              style={
+                isOpen
+                  ? {
+                      background: "#f7f7f7",
+                      transition: "background 0.3s ease-in-out",
+                    }
+                  : { background: "#181818" }
+              }
+            />
+            <div
+              className="Header__menu-bar"
+              style={
+                isOpen
+                  ? {
+                      background: "#f7f7f7",
+                      transition: "background 0.3s ease-in-out",
+                    }
+                  : { background: "#181818" }
+              }
+            />
+            <div
+              className="Header__menu-bar"
+              style={
+                isOpen
+                  ? {
+                      background: "#f7f7f7",
+                      transition: "background 0.3s ease-in-out",
+                    }
+                  : { background: "#181818" }
+              }
+            />
           </div>
         </div>
       </div>

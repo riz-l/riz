@@ -7,7 +7,14 @@ import "./Footer.styles.scss";
 // UI: Footer
 function Footer({ isOpen }) {
   return (
-    <div className="Footer__container">
+    <div
+      className="Footer__container"
+      style={
+        isOpen
+          ? { filter: "blur(3px)", transition: "filter 0.3s ease-in-out" }
+          : null
+      }
+    >
       <div className="Footer">
         <h3 className="Footer__container-title">Riz Layton</h3>
         <div className="Footer__social-media">

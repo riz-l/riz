@@ -30,13 +30,12 @@
 
     .Header__toggle-container {
       align-items: center;
-      // background: #f7f7f7;
-      // background: red;
       border-radius: 100px;
       cursor: pointer;
       display: flex;
       justify-content: center;
-      z-index: 1000;
+      position: relative;
+      z-index: 1001;
 
       &:hover {
         .Header__toggle-menu {
@@ -53,10 +52,12 @@
         flex-direction: column;
         height: 3rem;
         justify-content: space-evenly;
+        position: fixed;
         width: 3rem;
+        z-index: 1001;
 
         .Header__menu-bar {
-          background: #333333;
+          background: #181818;
           height: 0.25rem;
           transition: all 250ms ease-in-out;
           width: 3rem;
