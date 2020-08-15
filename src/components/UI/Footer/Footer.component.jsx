@@ -21,14 +21,14 @@ function Footer({ isOpen }) {
           <div title="GitHub" className="Footer__social-media-item">
             <span className="fab fa-github" />
           </div>
+          <div title="Dev" className="Footer__social-media-item">
+            <span className="fab fa-dev" />
+          </div>
           <div title="Behance" className="Footer__social-media-item">
             <span className="fab fa-behance" />
           </div>
           <div title="Twitter" className="Footer__social-media-item">
             <span className="fab fa-twitter" />
-          </div>
-          <div title="Discord" className="Footer__social-media-item">
-            <span className="fab fa-discord" />
           </div>
           <div title="Instagram" className="Footer__social-media-item">
             <span className="fab fa-instagram" />
