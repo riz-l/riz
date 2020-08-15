@@ -51,6 +51,7 @@
         min-width: 220px;
 
         & h4 {
+          cursor: pointer;
           font-size: 22px;
           font-weight: 500;
           padding: 8px 0;
@@ -60,8 +61,12 @@
           list-style: none;
 
           & li {
-            font-size: 14px;
             padding: 6px 0;
+
+            & p {
+              cursor: pointer;
+              font-size: 14px;
+            }
           }
         }
       }

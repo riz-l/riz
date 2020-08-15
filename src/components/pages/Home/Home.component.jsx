@@ -18,7 +18,7 @@ function Home() {
           <span className="Home__title-lead">Web &amp; App developer</span>
           <div className="Home__cta-container">
             <div className="Home__cta">
-              <span className="Home__cta-text">My work</span>
+              <span className="Home__cta-text">My projects</span>
             </div>
           </div>
         </div>

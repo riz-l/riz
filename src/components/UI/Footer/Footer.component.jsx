@@ -29,12 +29,45 @@ function Footer({ isOpen }) {
         </div>
         <div className="Footer__short-link-container">
           <div className="Footer__short-links">
-            <h4>Shop</h4>
+            <h4>About</h4>
             <ul>
-              <li>Keyboards</li>
-              <li>Artisans</li>
-              <li>Switches</li>
-              <li>Cables</li>
+              <li>
+                <p>Background</p>
+              </li>
+              <li>
+                <p>Experience</p>
+              </li>
+              <li>
+                <p>R&eacute;sum&eacute;</p>
+              </li>
+            </ul>
+          </div>
+          <div className="Footer__short-links">
+            <h4>Contact</h4>
+            <ul>
+              <li>
+                <p>Social Media</p>
+              </li>
+              <li>
+                <p>Email</p>
+              </li>
+            </ul>
+          </div>
+          <div className="Footer__short-links">
+            <h4>Projects</h4>
+            <ul>
+              <li>
+                <p>OneResponse</p>
+              </li>
+              <li>
+                <p>OneResponse - Management</p>
+              </li>
+              <li>
+                <p>Keyboard Shop</p>
+              </li>
+              <li>
+                <p>Personal Website</p>
+              </li>
             </ul>
           </div>
         </div>
