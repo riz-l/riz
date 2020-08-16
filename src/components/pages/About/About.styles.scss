@@ -1,0 +1,35 @@
+/*#region Page: About */
+.About__container {
+  background: transparent;
+  width: 100%;
+
+  .About {
+    align-items: flex-start;
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    min-height: 82vh;
+    width: 70%;
+
+    .About__text {
+      align-items: flex-start;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      text-align: left;
+
+      .About__title {
+        color: #333333;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        z-index: 800;
+      }
+    }
+  }
+}
+/*#endregion /Page: About */

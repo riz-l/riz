@@ -1,5 +1,6 @@
 // Import: Dependencies
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 // Import: Styling
 import "./NavigationMenu.styles.scss";
@@ -12,12 +13,12 @@ function NavigationMenu({ isOpen, setIsOpen }) {
       className={`NavigationMenu ${isOpen ? `NavigationMenu__open` : null}`}
       isOpen={isOpen}
     >
-      <div onClick={() => setIsOpen(!isOpen)}>
+      <Link to="/" onClick={() => setIsOpen(!isOpen)}>
         <p>Home</p>
-      </div>
-      <div onClick={() => setIsOpen(!isOpen)}>
+      </Link>
+      <Link to="/about" onClick={() => setIsOpen(!isOpen)}>
         <p>About</p>
-      </div>
+      </Link>
       <div onClick={() => setIsOpen(!isOpen)}>
         <p>Contact</p>
       </div>

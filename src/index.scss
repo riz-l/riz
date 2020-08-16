@@ -29,6 +29,12 @@ code {
 }
 /*#endregion /Default: React */
 
+/*#region Native Styling */
+a {
+  text-decoration: none;
+}
+/*#endregion /Native Styling */
+
 /*#region Component: App */
 .App {
   text-align: center;

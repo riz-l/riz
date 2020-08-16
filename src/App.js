@@ -6,6 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import "./index.scss";
 
 // Import: Pages
+import About from "./components/pages/About/About.component";
 import Home from "./components/pages/Home/Home.component";
 
 // Import: UI
@@ -26,6 +27,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home isOpen={isOpen} setIsOpen={setIsOpen} />
+        </Route>
+        <Route path="/about">
+          <About isOpen={isOpen} />
         </Route>
       </Switch>
       <Footer isOpen={isOpen} />
