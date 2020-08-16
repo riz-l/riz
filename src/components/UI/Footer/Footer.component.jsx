@@ -39,13 +39,16 @@ function Footer({ isOpen }) {
             <h4>About</h4>
             <ul>
               <li>
+                <p>Summary</p>
+              </li>
+              <li>
                 <p>Background</p>
               </li>
               <li>
-                <p>Experience</p>
+                <p>R&eacute;sum&eacute;</p>
               </li>
               <li>
-                <p>R&eacute;sum&eacute;</p>
+                <p>About (the real) me</p>
               </li>
             </ul>
           </div>
@@ -64,16 +67,22 @@ function Footer({ isOpen }) {
             <h4>Projects</h4>
             <ul>
               <li>
+                <p>Acronym Search</p>
+              </li>
+              <li>
+                <p>Keyboard Shop</p>
+              </li>
+              <li>
                 <p>OneResponse</p>
               </li>
               <li>
                 <p>OneResponse - Management</p>
               </li>
               <li>
-                <p>Keyboard Shop</p>
+                <p>Personal Website</p>
               </li>
               <li>
-                <p>Personal Website</p>
+                <p>UK&amp;I Lorenzo Customer Portal</p>
               </li>
             </ul>
           </div>
