@@ -34,6 +34,7 @@ function Footer({ isOpen }) {
             <span className="fab fa-instagram" />
           </div>
         </div>
+        <hr />
         <div className="Footer__short-link-container">
           <div className="Footer__short-links">
             <h4>About</h4>
@@ -42,13 +43,16 @@ function Footer({ isOpen }) {
                 <p>Summary</p>
               </li>
               <li>
+                <p>Experience</p>
+              </li>
+              <li>
                 <p>Background</p>
               </li>
               <li>
-                <p>R&eacute;sum&eacute;</p>
+                <p>R&eacute;sum&eacute; / CV</p>
               </li>
               <li>
-                <p>About (the real) me</p>
+                <p>About Me</p>
               </li>
             </ul>
           </div>

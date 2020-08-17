@@ -10,6 +10,7 @@
     justify-content: center;
     margin: auto;
     min-height: 82vh;
+    padding-bottom: 4rem;
     width: 70%;
 
     .Home__text {
@@ -125,11 +126,11 @@
           border-radius: 0;
           box-shadow: 20px 20px 60px #d2d2d2, -20px 0px 60px #ffffff;
           -webkit-box-shadow: 20px 20px 60px #d2d2d2, -20px 0px 60px #ffffff;
-          height: 275px;
-          width: 275px;
           display: grid;
+          height: 275px;
           place-items: center;
           transform: rotate(45deg);
+          width: 275px;
 
           .Home__image-third-inner-circle {
             background: #f7f7f7;
