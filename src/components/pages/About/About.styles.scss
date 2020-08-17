@@ -75,6 +75,13 @@
             justify-content: center;
             min-width: 100px;
             padding: 1rem 0.4rem 0 0.4rem;
+            margin: 1rem 0.4rem;
+
+            background: #f7f7f7;
+            border-radius: 0;
+            box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
+            -webkit-box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
+            z-index: 800;
 
             & span {
               font-size: 2rem;
