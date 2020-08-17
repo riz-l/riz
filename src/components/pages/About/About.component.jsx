@@ -62,7 +62,7 @@ function About({ isOpen }) {
             <h2>About (the real) Me</h2>
             <p>
               So far you've been able to read a little about the work me, but
-              you're now able to read about the real-me!
+              you're now able to read about the real me!
             </p>
             <p>What are your favourite movies?</p>
             <p>
@@ -71,12 +71,12 @@ function About({ isOpen }) {
             </p>
             <p>What are your favourite TV shows?</p>
             <p>
-              Battlestar Galatica, The Expanse, Silicon Valley, The Kingdom and
+              Battlestar Galactica, The Expanse, Silicon Valley, The Kingdom and
               Into the Badlands.
             </p>
             <p>What are your hobbies?</p>
             <p>
-              I love all things mechanical keyboards and PC, I just wish I could
+              I love all things PC and mechanical keyboards, I just wish I could
               afford to facilitate my love. Also - I'm a huge Real Madrid fan!
             </p>
           </div>
