@@ -22,7 +22,9 @@ function About({ isOpen }) {
             <h2>Summary</h2>
             <p>
               I am a website/application developer at DXC Technology, working
-              primarily in ReactJS, HTML, CSS and JS.
+              primarily in ReactJS, HTML, CSS and JS. I also work with Team
+              Defence Information (TDI) as a Mobile Application Adoption in
+              Defence co-lead in the Joint Information Group - Vanguard (JIG-V).
             </p>
             <p>
               I am currently looking for opportunities to further my career
@@ -50,9 +52,12 @@ function About({ isOpen }) {
             <p>
               In my day job I work on an application developed to be used by
               ambulance crews on tablets whilst attending emergency incidents.
-              In my spare time, I am the Mobile Application Adoption in Defence
-              (MAAD) co-lead in Team Defence Information's (TDI's) Joint
-              Information Group - Vanguard (JIG-V). Lot's of acronyms, sorry.
+              This mostly involves coding in ReactJS daily, as well as Azure
+              cloud database integration and SQL. In my spare time, I am a
+              Mobile Application Adoption in Defence co-lead in TDI's JIG-V.
+              This involves assisting with policy advice, mobile application
+              guidance and also developing small-scale projects such as the
+              'Acronym Search'.
             </p>
           </div>
           <div className="About__section">
@@ -61,23 +66,24 @@ function About({ isOpen }) {
           <div className="About__section">
             <h2>About (the real) Me</h2>
             <p>
-              So far you've been able to read a little about the work me, but
-              you're now able to read about the real me!
+              Aside from all of the work-stuff, here's a little about my
+              personal interests 😎
             </p>
-            <p>What are your favourite movies?</p>
+            <p className="About__question">What are your favourite movies?</p>
             <p>
               Top Gun, The Right Stuff, Event Horizon, Ex Machina, Starship
               Troopers, Lord of the Rings, Star Wars.
             </p>
-            <p>What are your favourite TV shows?</p>
+            <p className="About__question">What are your favourite TV shows?</p>
             <p>
               Battlestar Galactica, The Expanse, Silicon Valley, The Kingdom and
               Into the Badlands.
             </p>
-            <p>What are your hobbies?</p>
+            <p className="About__question">What are your hobbies?</p>
             <p>
               I love all things PC and mechanical keyboards, I just wish I could
-              afford to facilitate my love. Also - I'm a huge Real Madrid fan!
+              afford to facilitate my love. I'm also a huge Real Madrid fan and
+              I love to play video games!
             </p>
           </div>
         </div>

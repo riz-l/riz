@@ -1,6 +1,7 @@
 /*#region Page: About */
 .About__container {
   background: transparent;
+  padding-bottom: 4rem;
   width: 100%;
 
   .About {
@@ -45,6 +46,13 @@
         & p {
           line-height: 26px;
           padding: 0.6rem 0;
+        }
+
+        .About__question {
+          color: #868686;
+          font-weight: 600;
+          letter-spacing: 2px;
+          text-transform: uppercase;
         }
       }
     }
