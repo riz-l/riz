@@ -123,6 +123,10 @@
 
           .Contact__social-media-item {
             align-items: center;
+            background: #f7f7f7;
+            border-radius: 80px;
+            box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
+            -webkit-box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
             color: #333333;
             display: flex;
             flex-direction: column;
@@ -131,13 +135,9 @@
             padding: 1rem;
             margin: 2rem 1rem 0 1rem;
             max-height: 100px;
-            min-height: 100px;
             max-width: 100px;
+            min-height: 100px;
             min-width: 100px;
-            background: #f7f7f7;
-            border-radius: 0;
-            box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
-            -webkit-box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
             z-index: 800;
 
             &:hover {

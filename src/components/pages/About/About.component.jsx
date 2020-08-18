@@ -43,56 +43,41 @@ function About({ isOpen }) {
           <div className="About__section">
             <h2>Experience</h2>
             <div className="About__experience">
-              <div className="About__experience-item">
-                <span title="HTML" className="fab fa-html5"></span>
-                <p>HTML</p>
+              <div title="HTML" className="About__experience-item">
+                <span className="fab fa-html5"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="CSS" className="fab fa-css3-alt"></span>
-                <p>CSS</p>
+              <div title="CSS" className="About__experience-item">
+                <span className="fab fa-css3-alt"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="SASS" className="fab fa-sass"></span>
-                <p>Sass</p>
+              <div title="SASS" className="About__experience-item">
+                <span className="fab fa-sass"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="Bootstrap" className="fab fa-bootstrap"></span>
-                <p>Bootstrap</p>
+              <div title="Bootstrap" className="About__experience-item">
+                <span className="fab fa-bootstrap"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="JavaScript" className="fab fa-js"></span>
-                <p>JavaScript</p>
+              <div title="JavaScript" className="About__experience-item">
+                <span className="fab fa-js"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="React JS" className="fab fa-react"></span>
-                <p>React JS</p>
+              <div title="React JS" className="About__experience-item">
+                <span className="fab fa-react"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="Node JS" className="fab fa-node"></span>
-                <p>Node NS</p>
+              <div title="Node JS" className="About__experience-item">
+                <span className="fab fa-node"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="SQL" className="fas fa-database"></span>
-                <p>SQL</p>
+              <div title="SQL" className="About__experience-item">
+                <span className="fas fa-database"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="Google Firebase" className="fab fa-google"></span>
-                <p>Google Firebase</p>
+              <div title="Google Firebase" className="About__experience-item">
+                <span className="fab fa-google"></span>
               </div>
-              <div className="About__experience-item">
-                <span
-                  title="Microsoft Azure"
-                  className="fab fa-microsoft"
-                ></span>
-                <p>Microsoft Azure</p>
+              <div title="Microsoft Azure" className="About__experience-item">
+                <span className="fab fa-microsoft"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="AWS" className="fab fa-aws"></span>
-                <p>AWS</p>
+              <div title="AWS" className="About__experience-item">
+                <span className="fab fa-aws"></span>
               </div>
-              <div className="About__experience-item">
-                <span title="XAML" className="fas fa-code"></span>
-                <p>XAML</p>
+              <div title="XAML" className="About__experience-item">
+                <span className="fas fa-code"></span>
               </div>
             </div>
           </div>
