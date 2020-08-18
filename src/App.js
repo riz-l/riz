@@ -9,6 +9,7 @@ import "./index.scss";
 import About from "./components/pages/About/About.component";
 import Contact from "./components/pages/Contact/Contact.component";
 import Home from "./components/pages/Home/Home.component";
+import Projects from "./components/pages/Projects/Projects.component";
 
 // Import: UI
 import Footer from "./components/UI/Footer/Footer.component";
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact isOpen={isOpen} />
+        </Route>
+        <Route path="/projects">
+          <Projects isOpen={isOpen} />
         </Route>
       </Switch>
       <Footer isOpen={isOpen} />

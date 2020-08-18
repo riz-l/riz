@@ -75,7 +75,9 @@ function Footer({ isOpen }) {
             </ul>
           </div>
           <div className="Footer__short-links">
-            <h4>Projects</h4>
+            <Link to="/projects">
+              <h4>Projects</h4>
+            </Link>
             <ul>
               <li>
                 <p>Acronym Search</p>
@@ -91,9 +93,6 @@ function Footer({ isOpen }) {
               </li>
               <li>
                 <p>Personal Website</p>
-              </li>
-              <li>
-                <p>UK&amp;I Lorenzo Customer Portal</p>
               </li>
             </ul>
           </div>

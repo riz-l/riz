@@ -24,7 +24,6 @@ function About({ isOpen }) {
       <div className="About">
         <div className="About__text">
           <h1 className="About__title">About</h1>
-          <span className="About__lead">About</span>
           <div className="About__section About__section-summary">
             <h2>Summary</h2>
             <p>
@@ -75,6 +74,24 @@ function About({ isOpen }) {
               </div>
               <div title="AWS" className="About__experience-item">
                 <span className="fab fa-aws"></span>
+              </div>
+              <div title="Jira" className="About__experience-item">
+                <span className="fab fa-jira"></span>
+              </div>
+              <div title="Figma" className="About__experience-item">
+                <span className="fab fa-figma"></span>
+              </div>
+              <div title="Algolia" className="About__experience-item">
+                <span className="fab fa-algolia"></span>
+              </div>
+              <div title="Stripe" className="About__experience-item">
+                <span className="fab fa-stripe"></span>
+              </div>
+              <div
+                title="Progressive Web App (PWA)"
+                className="About__experience-item"
+              >
+                <span className="fas fa-download"></span>
               </div>
               <div title="XAML" className="About__experience-item">
                 <span className="fas fa-code"></span>

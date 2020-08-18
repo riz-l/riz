@@ -24,7 +24,6 @@ function Contact({ isOpen }) {
       <div className="Contact">
         <div className="Contact__text">
           <h1 className="Contact__title">Contact</h1>
-          <span className="Contact__lead">Contact</span>
           <div className="Contact__section Contact__section-summary">
             <h2>Get in touch</h2>
             <p>If you'd like to get in touch, please contact me here:</p>
