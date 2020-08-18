@@ -62,7 +62,9 @@ function Footer({ isOpen }) {
             </ul>
           </div>
           <div className="Footer__short-links">
-            <h4>Contact</h4>
+            <Link to="/contact">
+              <h4>Contact</h4>
+            </Link>
             <ul>
               <li>
                 <p>Social Media</p>

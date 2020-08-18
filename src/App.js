@@ -7,6 +7,7 @@ import "./index.scss";
 
 // Import: Pages
 import About from "./components/pages/About/About.component";
+import Contact from "./components/pages/Contact/Contact.component";
 import Home from "./components/pages/Home/Home.component";
 
 // Import: UI
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About isOpen={isOpen} />
+        </Route>
+        <Route path="/contact">
+          <Contact isOpen={isOpen} />
         </Route>
       </Switch>
       <Footer isOpen={isOpen} />

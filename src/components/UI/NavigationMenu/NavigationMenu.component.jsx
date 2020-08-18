@@ -19,9 +19,9 @@ function NavigationMenu({ isOpen, setIsOpen }) {
       <Link to="/about" onClick={() => setIsOpen(!isOpen)}>
         <p>About</p>
       </Link>
-      <div onClick={() => setIsOpen(!isOpen)}>
+      <Link to="/contact" onClick={() => setIsOpen(!isOpen)}>
         <p>Contact</p>
-      </div>
+      </Link>
       <div onClick={() => setIsOpen(!isOpen)}>
         <p>Projects</p>
       </div>
