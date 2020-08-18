@@ -1,5 +1,5 @@
 // Import: Dependencies
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // Import: Styling
 import "./Home.styles.scss";
@@ -8,6 +8,11 @@ import "./Home.styles.scss";
 function Home({ isOpen }) {
   // State = isLightTheme
   const [isLightTheme, setIsLightTheme] = useState(true);
+
+  // Upon navigation to Home, moves DOM to top of window
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Render Home code
   return (

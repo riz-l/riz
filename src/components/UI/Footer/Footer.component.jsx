@@ -1,5 +1,6 @@
 // Import: Dependencies
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Import: Styling
 import "./Footer.styles.scss";
@@ -16,7 +17,9 @@ function Footer({ isOpen }) {
       }
     >
       <div className="Footer">
-        <h3 className="Footer__container-title">Riz Layton</h3>
+        <Link to="/">
+          <h3 className="Footer__container-title">Riz Layton</h3>
+        </Link>
         <div className="Footer__social-media">
           <div title="GitHub" className="Footer__social-media-item">
             <span className="fab fa-github" />
@@ -37,7 +40,9 @@ function Footer({ isOpen }) {
         <hr />
         <div className="Footer__short-link-container">
           <div className="Footer__short-links">
-            <h4>About</h4>
+            <Link to="/about">
+              <h4>About</h4>
+            </Link>
             <ul>
               <li>
                 <p>Summary</p>

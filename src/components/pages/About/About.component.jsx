@@ -1,11 +1,17 @@
 // Import: Dependencies
-import React from "react";
+import React, { useEffect } from "react";
 
 // Import: Styling
 import "./About.styles.scss";
 
 // Page: About
 function About({ isOpen }) {
+  // Upon navigation to About, moves DOM to top of window
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // Render About code
   return (
     <div
       className="About__container"
@@ -48,6 +54,10 @@ function About({ isOpen }) {
               <div className="About__experience-item">
                 <span title="SASS" className="fab fa-sass"></span>
                 <p>Sass</p>
+              </div>
+              <div className="About__experience-item">
+                <span title="Bootstrap" className="fab fa-bootstrap"></span>
+                <p>Bootstrap</p>
               </div>
               <div className="About__experience-item">
                 <span title="JavaScript" className="fab fa-js"></span>
