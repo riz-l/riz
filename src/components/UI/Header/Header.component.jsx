@@ -19,7 +19,10 @@ function Header({ isOpen, setIsOpen }) {
             setIsOpen((isOpen) => !isOpen);
           }}
         >
-          <div className="Header__toggle-menu">
+          <div
+            className="Header__toggle-menu"
+            style={isOpen ? { position: "fixed", marginRight: "3rem" } : null}
+          >
             <div
               className="Header__menu-bar"
               style={

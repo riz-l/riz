@@ -16,15 +16,15 @@ function NavigationMenu({ isOpen, setIsOpen }) {
       <Link to="/" onClick={() => setIsOpen(!isOpen)}>
         <p>Home</p>
       </Link>
-      <Link to="/about" onClick={() => setIsOpen(!isOpen)}>
+      <div>
         <p>About</p>
-      </Link>
-      <Link to="/contact" onClick={() => setIsOpen(!isOpen)}>
+      </div>
+      <div>
         <p>Contact</p>
-      </Link>
-      <Link to="/projects" onClick={() => setIsOpen(!isOpen)}>
+      </div>
+      <div>
         <p>Projects</p>
-      </Link>
+      </div>
     </div>
   );
 }

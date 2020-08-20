@@ -40,9 +40,9 @@ function Footer({ isOpen }) {
         <hr />
         <div className="Footer__short-link-container">
           <div className="Footer__short-links">
-            <Link to="/about">
+            <div>
               <h4>About</h4>
-            </Link>
+            </div>
             <ul>
               <li>
                 <p>Summary</p>
@@ -62,9 +62,9 @@ function Footer({ isOpen }) {
             </ul>
           </div>
           <div className="Footer__short-links">
-            <Link to="/contact">
+            <div>
               <h4>Contact</h4>
-            </Link>
+            </div>
             <ul>
               <li>
                 <p>Social Media</p>
@@ -75,9 +75,9 @@ function Footer({ isOpen }) {
             </ul>
           </div>
           <div className="Footer__short-links">
-            <Link to="/projects">
+            <div>
               <h4>Projects</h4>
-            </Link>
+            </div>
             <ul>
               <li>
                 <p>Acronym Search</p>
