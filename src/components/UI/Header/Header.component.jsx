@@ -31,7 +31,7 @@ function Header({ isOpen, setIsOpen }) {
                       background: "#f7f7f7",
                       transition: "background 0.3s ease-in-out",
                     }
-                  : { background: "#181818" }
+                  : { background: "#333333" }
               }
             />
             <div
